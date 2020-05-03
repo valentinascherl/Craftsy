@@ -1,0 +1,98 @@
+body{
+    background-image:url(../img/bg-2.png);
+}
+.header{
+    width: 1140px;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    overflow: hidden;
+    background-color: rgb(239, 76, 39);
+    padding: 12px 15px;
+    overflow: hidden;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+li {
+    list-style: none;
+}
+.nav2{
+    float: right;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+.nav1{
+    float:left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold
+}
+.ul1 li{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+.ul2 li {
+    float: left;
+    padding: 10px;
+}
+.ul2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+main{
+    width: 1140px;
+    height: 1500px;
+    overflow: hidden;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 350px;
+    position: relative;
+    margin-left: 50%;
+}
+form h1{
+    font-size: 50px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.input{
+    border: 1px solid lightblue;
+    width: 320px;
+    height: 30px;
+}
+.recordarme{
+    margin-left: 220px;
+}
+.r{
+    font-weight: bold;
+}
+.boton{
+    background-color: royalblue;
+    width: 130px;
+    height: 34px;
+    border-radius: 15px;
+    border: royalblue;
+    color: white;
+    font-weight: bold;
+}
+.p{
+    color: red;
+}

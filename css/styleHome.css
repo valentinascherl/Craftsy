@@ -1,0 +1,221 @@
+body{
+    background-image: url(../img/bg-2.png);
+    height: 1500px;
+}
+.header{
+    width: 1140px;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    overflow: hidden;
+    background-color: rgb(239, 76, 39);
+    padding: 12px 15px;
+    overflow: hidden;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+li {
+    list-style: none;
+}
+.nav2{
+    float: right;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+.nav1{
+    float:left;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold
+}
+.ul1 li{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+.ul2 li {
+    float: left;
+    padding: 10px;
+}
+.ul2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+main{
+    width: 1140px;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+section a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 10px 12px;
+}
+section{
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.article1{
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.article2{
+    width: 380px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.article3{
+    width: 380px;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.article4{
+    width: 380px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+aside{
+    float: right;
+    width: 320px;
+}
+.aside h2{
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+aside section{
+    overflow: hidden;
+}
+.section{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section h3{
+    float: right;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 2px;
+}
+.sectiona{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sectiona h3{
+    float: right;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 2px;
+}
+.sectionb{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sectionb h3{
+    float: right;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 2px;
+}
+.sectionc {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sectionc h3{
+    float: right;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 2px;
+}
+
+
+.publi{
+    margin-top: 80px;
+    border: 1px solid lightblue;
+}
+.publi h2{
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.publi1{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+.publi2{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+
+
+

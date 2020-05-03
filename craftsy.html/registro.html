@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styleRegistro.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="home.html"><img src="../img/logo.png" class="logo"></a>
+        <nav class="nav2">
+            <ul class="ul2">
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">REGISTRO</a></li>
+            </ul>
+        </nav>
+        <nav class="nav1">
+                <ul class="ul1">
+                    <li>SMARTPHONES</li>
+                    <li>TABLETS</li>
+                    <li>COMPUTADORAS</li>
+                </ul>
+        </nav>
+        </header>
+        <main>
+            <form action="" method="POST">
+                <h1>BIENVENIDO</h1>
+                <p class="negrita"><label for="nombre">Nombre</label></p>
+                <p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="input"></p>
+                <p class="p">Obligatorio.</p>
+                <p class="negrita"><label for="email">Email</label></p>
+                <p><input type="email" id="email" name="email" placeholder="Email" required class="input"></p>
+                <p class="p">Obligatorio.</p>
+                <p class="negrita"><label for="password">Contraseña</label></p>
+                <p><input type="password" id="password" name="password" placeholder="password" required class="input"></p>
+                <p class="p">Obligatorio.</p>
+                <h2>Pais de nacimiento</h2>
+                <select name="" id="" class="pais"><option value="" hidden selected>Por favor elija uno</option></select>
+                <h2>Genero</h2>
+                <label class="label"><input type="radio" name="femenino" value="F">Femenino</label>
+                <label class="label"><input type="radio" name="masculino" value="M">Masculino</label>
+                <label class="label"><input type="radio" name="prefiero no decirlo" value="PND">Prefiero no decirlo</label>
+                <h2>Hobbies</h2>
+                <label class="label"><input type="checkbox" name="checkbox" value="C">Guitarra</label>
+                <label class="label"><input type="checkbox" name="checkbox" value="C">Futbol</label>
+                <label class="label"><input type="checkbox" name="checkbox" value="C">Tenis</label>
+                <label class="label"><input type="checkbox" name="checkbox" value="C">Programacion</label>
+                <h2><label for="">Dejanos tus comentarios</label></h2>
+                <textarea name="comentario" id="" cols="30" rows="10" class="comentario"></textarea>
+                <p class="A"><input type="checkbox" name="terminos" value="T" class="terminos">Acepto terminos y condiciones.</p>
+                <label><input type="submit" value="Registrarme" class="boton"></label>
+                <label><button type="reset" class="boton">Cancelar</button></label>
+            </form>
+    </body>
+</html>
+
+
